@@ -1,0 +1,20 @@
+{
+  "name": "brokers",
+  "version": "1.0.1",
+  "description": "react hooks for data communication",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "pub": "tsc && npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "repository": "git@github.com:iinitd/brokers.git",
+  "author": "iinitd",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
